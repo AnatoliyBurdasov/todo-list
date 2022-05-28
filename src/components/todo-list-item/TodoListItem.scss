@@ -1,0 +1,10 @@
+.todo-list-item {
+  cursor: pointer;
+
+  &__element--disabled {
+    text-decoration: line-through rgb(255, 0, 0) 2px;
+  }
+  &__element--important {
+    color: #2825c7;
+  }
+}
